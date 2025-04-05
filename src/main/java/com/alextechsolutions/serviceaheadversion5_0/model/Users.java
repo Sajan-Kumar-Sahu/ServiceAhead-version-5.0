@@ -4,8 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
+
 import lombok.ToString;
 
 
@@ -19,7 +18,6 @@ public class Users {
     private int id;
     private String username;
     private String password;
-<<<<<<< HEAD:src/main/java/com/alextechsolutions/serviceaheadversion5_0/Model/Users.java
 
         public String getPassword() {
             return password;
@@ -43,6 +41,3 @@ public class Users {
         // Other fields and methods...
 
 }
-=======
-}
->>>>>>> 8e7fc9536f3da59a5ce71c69df4ce13e9ac02e74:src/main/java/com/alextechsolutions/serviceaheadversion5_0/model/Users.java
