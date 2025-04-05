@@ -1,4 +1,4 @@
-package com.alextechsolutions.serviceaheadversion5_0.Model;
+package com.alextechsolutions.serviceaheadversion5_0.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

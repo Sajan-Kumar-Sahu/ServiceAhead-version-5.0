@@ -1,9 +1,9 @@
-package com.alextechsolutions.serviceaheadversion5_0.Controller;
+package com.alextechsolutions.serviceaheadversion5_0.controller;
 
-import com.alextechsolutions.serviceaheadversion5_0.Model.BookingDetail;
-import com.alextechsolutions.serviceaheadversion5_0.Model.Users;
-import com.alextechsolutions.serviceaheadversion5_0.Service.Booking_service;
-import com.alextechsolutions.serviceaheadversion5_0.Service.Registration_Process;
+import com.alextechsolutions.serviceaheadversion5_0.model.BookingDetail;
+import com.alextechsolutions.serviceaheadversion5_0.model.Users;
+import com.alextechsolutions.serviceaheadversion5_0.service.Booking_service;
+import com.alextechsolutions.serviceaheadversion5_0.service.Registration_Process;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

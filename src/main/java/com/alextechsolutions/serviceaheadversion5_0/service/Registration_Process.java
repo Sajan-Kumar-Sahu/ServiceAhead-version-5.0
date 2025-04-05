@@ -1,16 +1,17 @@
-package com.alextechsolutions.serviceaheadversion5_0.Service;
+package com.alextechsolutions.serviceaheadversion5_0.service;
 
-import com.alextechsolutions.serviceaheadversion5_0.Model.Users;
-import com.alextechsolutions.serviceaheadversion5_0.Repository.UserRepo;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.alextechsolutions.serviceaheadversion5_0.model.Users;
+import com.alextechsolutions.serviceaheadversion5_0.repository.UserRepo;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class Registration_Process {
 
-    @Autowired
-    private UserRepo repo;
+
+    private final UserRepo repo;
 
     BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
 

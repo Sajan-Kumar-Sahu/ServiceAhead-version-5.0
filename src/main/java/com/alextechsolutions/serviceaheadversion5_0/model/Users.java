@@ -1,4 +1,4 @@
-package com.alextechsolutions.serviceaheadversion5_0.Model;
+package com.alextechsolutions.serviceaheadversion5_0.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 public class Users {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String username;
     private String password;
