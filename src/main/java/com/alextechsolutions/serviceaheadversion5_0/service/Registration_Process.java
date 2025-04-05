@@ -7,13 +7,15 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
 public class Registration_Process {
-
 
     private final UserRepo repo;
 
-    BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
+    private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
+
+    public Registration_Process(UserRepo repo) {
+        this.repo = repo;
+    }
 
     public void register(Users user){
         user.setPassword(encoder.encode(user.getPassword()));
