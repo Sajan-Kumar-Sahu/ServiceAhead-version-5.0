@@ -11,7 +11,7 @@ public class Registration_Process {
 
     private final UserRepo repo;
 
-    private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
+    public BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
 
     public Registration_Process(UserRepo repo) {
         this.repo = repo;
