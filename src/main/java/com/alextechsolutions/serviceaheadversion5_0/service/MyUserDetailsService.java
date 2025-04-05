@@ -1,8 +1,8 @@
-package com.alextechsolutions.serviceaheadversion5_0.Service;
+package com.alextechsolutions.serviceaheadversion5_0.service;
 
-import com.alextechsolutions.serviceaheadversion5_0.Model.UserPrincipal;
-import com.alextechsolutions.serviceaheadversion5_0.Model.Users;
-import com.alextechsolutions.serviceaheadversion5_0.Repository.UserRepo;
+import com.alextechsolutions.serviceaheadversion5_0.model.UserPrincipal;
+import com.alextechsolutions.serviceaheadversion5_0.model.Users;
+import com.alextechsolutions.serviceaheadversion5_0.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
